@@ -1,0 +1,32 @@
+body {
+	font-family: "helvetica", "comic sans em", serif;
+	text-align: center;
+	font-weight: bold;
+	background-color: yellow;
+	background-image: url(/img/kevleteren.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+	/*background-repeat: repeat-y;*/
+	/*background-position: top;*/
+
+}
+h1 {
+	color: blue;
+	text-decoration: underline;
+}
+img {
+	border: 5px double black;
+}
+blockquote{
+	color: red;
+}
+ol {
+	list-style: circle;
+	text-align: left;
+}
+.food {
+	text-align: left;
+}
+a {
+
+}

@@ -1,0 +1,57 @@
+/*still having git issues*/
+body {
+    background-color: #ffffee;
+}
+h1 {
+    font-family: "David", "Georgia", "Century";
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: left;
+    text-shadow: 1px 1px black;
+    line-height: 50px;
+}
+h2 {
+    font-weight: bolder;
+    text-align: left;
+    font-size: 40px;
+    
+}
+h2 span {
+    color: black;
+    text-decoration: line-through;
+    background-color: red;
+}
+.stanza1 {
+    text-indent: 175px;
+    text-align: left;
+    font-family: "Kartika","Vrinda", "Tunga";
+    font-size: 30px;
+}
+.stanza1 span {
+    font-style: italic;
+    text-align: left;
+    font-family: "Kartika","Vrinda", "Tunga";
+}
+.stanza2 {
+    text-align: right;
+    font-family: "Kartika","Vrinda", "Tunga";
+    font-size: 30px;
+}
+.stanza2 span {
+    font-weight: bold;
+}
+a {
+    font-family: "Papyrus", "centaur";
+    font-size: 75px;
+    color: #102055;
+}
+a:link {
+    text-decoration: none;
+    color: #102055;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+     color: blue;
+}

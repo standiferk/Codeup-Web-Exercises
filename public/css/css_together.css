@@ -1,0 +1,26 @@
+h1 {
+		font-weight: normal;
+		text-align: center;
+		color: blue;
+		text-shadow: 2px 2px green;
+		/* this is how to do an element */
+
+	}
+	h1, .abstract {
+		/*transform: rotate(180deg);*/
+		/* use "." for "class" */
+		/*use a comma for multiples*/
+	}
+	article h1 {
+		color: red; 
+		no text-shadow;
+
+	}
+
+	#practice {
+		text-align: center;
+		background-color: salmon;
+		
+		/* use # for id elements */
+	}
+	
