@@ -6,9 +6,9 @@ html {
 }
 a:link {
 	font-family: serif;
-    font-size: 36px;
+    font-size: 40px;
     color: #613096;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited {
@@ -22,43 +22,49 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
+section {
+	width: 600px;
+	margin-top: 5px;
+}
+.image {
+	position: relative;
+	top: -110px;
+	right: -40px;
+}
 .box {
-	margin: 10px;
+	margin: 50px;
 	border: 1px solid black;
 	height: 72px;
-	width: 172px;
+	width: 72px;
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-right: 15px;
 	padding-bottom: 15px;
 	color: white;
+	float: left;
 }
+
 #box1 {
 	background-color: #D84231;
 	font-weight: bold;
 }
 #box2 {
 	background-color: #E9AD33;
-	margin-left: 30px;
 	font-weight: bold;
 }
 #box3 {
 	background-color: #FDF733;
-	margin-left: 60px;
 	font-weight: bold;
 }
 #box4 {
 	background-color: #578C05;
-	margin-left: 90px;
 	font-weight: bold;
 }
 #box5 {
 	background-color: #234AFB;
-	margin-left: 120px;
 	font-weight: bold;
 }
 #box6 {
 	background-color: #DF8BF0;
-	margin-left: 150px;
 	font-weight: bold;
 }
