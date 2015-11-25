@@ -43,6 +43,11 @@ section {
 	color: white;
 	float: left;
 }
+.box:nth-child(2n+2) {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
 
 #box1 {
 	background-color: #D84231;
