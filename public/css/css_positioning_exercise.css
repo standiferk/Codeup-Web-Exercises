@@ -48,10 +48,14 @@ section {
 	top: 0px;
 	left: 0px;
 }
-
+.fa {
+	font-size: 50px;
+	color: purple;
+}
 #box1 {
 	background-color: #D84231;
 	font-weight: bold;
+
 }
 #box2 {
 	background-color: #E9AD33;
