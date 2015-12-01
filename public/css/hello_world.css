@@ -1,7 +1,9 @@
+
 body {
 	font-family: "helvetica", "comic sans em", serif;
 	text-align: center;
 	font-weight: bold;
+	color: yellow;
 	background-color: yellow;
 	background-image: url(/img/kevleteren.jpg);
 	background-size: contain;

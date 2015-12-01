@@ -1,0 +1,97 @@
+html {
+	background-color: #87494F;
+	color: white;
+}
+
+header {
+font-size: 44px;
+text-align: center;
+text-shadow: 2px 2px white;
+color: black;
+font-family: 'Bangers', cursive;
+border: 30px groove #2e5cb8 ;
+padding: 20px;
+background-image: url(/img/SA_sunset.jpg);
+background-size: cover;
+position: relative;
+}
+nav {
+	text-align: right;
+	font-family: serif;
+	font-size: 30px;
+	vertical-align: right;
+	text-decoration: none;
+}
+a {
+    font-family: serif;
+    font-size: 30px;
+    color: #102055;
+}
+a:link {
+    text-decoration: none;
+    color: #102055;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+     color: red;
+
+}
+.cigar_box {
+	height: 825px;
+	width: 725px;
+	border: 20px groove #2e5cb8;
+	background-size: cover; 
+	background-color: black;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'bangers' cursive;
+	color: white;
+	text-shadow: 2px 2px blue;
+	text-decoration: underline;
+	background-image: url(/img/Sinister_Sam.jpg);
+	overflow: hidden;
+	float: left;
+}
+span {
+	text-align: left;
+	font-family: serif;
+	font-size: 30px;
+	color: #00ff00;
+	text-decoration: none;
+}
+section .center_text {
+	height: 825px;
+	width: 375px;
+	border: none;
+	position: absolute;
+	top: 525px;
+	left: 800px;
+	padding: 20px;
+	text-align: left;
+	font-family: serif;
+	font-size: 30px;
+	color: #00ff00;
+	text-wrap
+	text-decoration: none;
+}
+.beer_box {
+	height: 825px;
+	width: 725px;
+	border: 20px groove #2e5cb8;
+	background-size: cover; 
+	background-color: black;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'bangers' cursive;
+	color: white;
+	text-shadow: 2px 2px blue;
+	text-decoration: underline;
+	background-image: url(/img/kevleteren.jpg);
+	position: absolute;
+	top: 530px;
+	right: 010px;
+	overflow: hidden;
+	float: right;
+}

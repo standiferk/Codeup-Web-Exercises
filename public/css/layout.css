@@ -1,0 +1,75 @@
+
+body {
+	color: gray;
+	background-color: #e1e1e1;
+	font-size: 30px;
+}
+aside {
+	background-color: white;
+	padding: 20px;
+	border: 3px solid black;
+	border-radius: 13px;
+	float: left;
+	text-align: left;
+	height: 475px;
+	width: 200px;
+	margin: 10px;
+	clear: bottom;
+	}
+header {
+font-size: 44px;
+text-align: center;
+text-shadow: 2px 2px blue;
+color: white;
+font-family: 'Bangers', cursive;
+border: 15px solid #2e5cb8 ;
+padding: 20px;
+border-radius: 100px 20px;
+position: relative;
+background-image: url(/img/hubble.jpg);
+background-size: cover;
+}
+nav {
+	text-align: right;
+	font-family: serif;
+	font-size: 30px;
+	vertical-align: right;
+	text-decoration: none;
+}
+a {
+    font-family: serif;
+    font-size: 30px;
+    color: #102055;
+}
+a:link {
+    text-decoration: none;
+    color: #102055;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+     color: red;
+
+}
+img {
+	float: left;
+	margin: 10px;
+}
+footer {
+	text-align: right;
+	font-family: serif;
+	font-size: 30px;
+	vertical-align: right;
+	color: #F3EEE3;
+	text-shadow: 2px 2px white;
+	font-family: 'Bangers', cursive;
+	border: 15px solid #2e5cb8 ;
+	padding: 20px;
+	border-radius: 20px 100px;
+	position: relative;
+	background-image: url(/img/hubble.jpg);
+	background-size: cover;
+	text-decoration: none;
+	margin: 10px;
+}
