@@ -8,42 +8,57 @@ html {
 	margin: 0px auto;
 	padding: 100px;
 }
+.container2 {
+	margin: 100px auto;
+	padding: 100px;
+}
 .row {
 	margin: 10px;
 }
 .column {
     float: left;
-    padding: 40px;
+    padding: 25px;
     height: 100px;
+    text-align: center;
+    font-size: 30px;
 }
 .column.one-half {
     width: 50%;
     background-color: yellow;
-    border: 4px groove yellow;
-    text-align: center;
+    border: 8px groove #FFAAFF;
 }
 .column.one-third {
     width: 33.33%;
     background-color: red;
-    border: 4px groove red;
-    text-align: center;
+    border: 8px groove #FFAA00;
 }
 .column.one-fourth {
 	width: 25%;
     background-color: green;
-    border: 4px groove green;
-    text-align: center;
+    border: 8px groove #5580FF;
 }
 .column.one-sixth {
 	width: 16.66%;
     background-color: salmon;
-    border: 4px groove salmon;
-    text-align: center;
+    border: 8px groove #AA6072;
 }
 .column.one-eighth {
 	width: 12.5%;
     background-color: blue;
-    border: 4px groove blue;
-    text-align: center;
+    border: 8px groove #3366FF;
 }
-
+.column.practice {
+	width: 50%;
+    background-color: yellow;
+    border: 8px groove #FFAAFF;
+}
+.column.sixtha {
+	width: 16.66%;
+    background-color: papayawhip;
+    border: 8px groove #AA6072;
+}
+.column.sixthb {
+	width: 16.66%;
+    background-color: gray;
+    border: 8px groove #AA6072;
+}
