@@ -11,18 +11,19 @@ aside {
 	border-radius: 13px;
 	float: left;
 	text-align: left;
-	height: 475px;
-	width: 200px;
+	height: 450px;
+	width: 10%;
 	margin: 10px;
 	clear: bottom;
 	}
 header {
 font-size: 44px;
 text-align: center;
-text-shadow: 2px 2px blue;
+text-shadow: 2px 2px white;
 color: white;
-font-family: 'Bangers', cursive;
-border: 15px solid #2e5cb8 ;
+/*font-family: 'Bangers', cursive;*/
+font-family: 'Orbitron', sans-serif;
+border: 15px solid #2e5cb8;
 padding: 20px;
 border-radius: 100px 20px;
 position: relative;
@@ -47,6 +48,7 @@ a:link {
 }
 a:hover {
     text-decoration: underline;
+	box-shadow: 10px 10px 10px 10px yellow;
 }
 a:active {
      color: red;
@@ -55,6 +57,9 @@ a:active {
 img {
 	float: left;
 	margin: 10px;
+	height: 450px;
+	width: 450px;
+	border-radius: 50%;
 }
 footer {
 	text-align: right;
@@ -64,7 +69,7 @@ footer {
 	color: #F3EEE3;
 	text-shadow: 2px 2px white;
 	font-family: 'Bangers', cursive;
-	border: 15px solid #2e5cb8 ;
+	border: 15px solid #2e5cb8;
 	padding: 20px;
 	border-radius: 20px 100px;
 	position: relative;
@@ -73,3 +78,4 @@ footer {
 	text-decoration: none;
 	margin: 10px;
 }
+
