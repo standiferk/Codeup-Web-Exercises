@@ -6,14 +6,10 @@ html {
 }
 .container {
 	margin: 0px auto;
-	padding: 100px;
-}
-.container2 {
-	margin: 100px auto;
-	padding: 100px;
+	padding: 20px;
 }
 .row {
-	margin: 10px;
+	margin: 0px;
 }
 .column {
     float: left;
