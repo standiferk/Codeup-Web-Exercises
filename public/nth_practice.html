@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+height: 100px;
+width: 100px;
+margin: 50px;
+border: 1px solid black;
+color: white;
+text-align: center;
+float: left;
+
+}
+.image {
+Position: relative;
+top: -50px;
+left: 75px;
+}
+
+.box:nth-child(n+4) {
+position: relative;
+top: 0px;
+left: 0px;
+}
+.box:nth-child(n+7) {
+position: relative;
+top: 0px;
+left: 0px;
+}
+/*.image:nth-child(n+4) {
+position: relative;
+top: -200px;
+left: 200px;
+}
+.image:nth-child(n+7) {
+position: relative;
+top: -706px;
+left: 100px;
+}*/
+
+
+#box1 {
+background-color: #00FFFF;
+}
+#box2 {
+background-color: #33FF33;
+}
+#box3 {
+background-color: #CC00FF;
+}
+#box4 {
+background-color: #FFFF00;
+}
+#box5 {
+background-color: #0000CC;
+}
+#box6 {
+background-color: #33CC33;
+}
+#box7 {
+background-color: #FF00CC;
+}
+#box8 {
+background-color: #000099;
+}
+#box9 {
+background-color: #009900;
+}
+#box10 {
+background-color: #CC3366;
+}
+#box11 {
+background-color: #FF9900;
+}
+#box12 {
+background-color: #FF66FF;
+}
+
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>Positioning Exercise;</h2>
+<section>
+<p class="box" id="box1"> <img class="image" src="/img/smiley.gif">1<br>practice with :nth</p>
+<p class="box" id="box2"> <img class="image" src="/img/smiley.gif">2<br>practice with :nth</p>
+<p class="box" id="box3"> <img class="image" src="/img/smiley.gif">3<br>practice with :nth</p>
+<p class="box" id="box4"> <img class="image" src="/img/smiley.gif">4<br>practice with :nth</p>
+<p class="box" id="box5"> <img class="image" src="/img/smiley.gif">5<br>practice with :nth</p>
+<p class="box" id="box6"> <img class="image" src="/img/smiley.gif">6<br>practice with :nth</p>
+<p class="box" id="box7"> <img class="image" src="/img/smiley.gif">7<br>practice with :nth</p>
+<p class="box" id="box8"> <img class="image" src="/img/smiley.gif">8<br>practice with :nth</p>
+<p class="box" id="box9"> <img class="image" src="/img/smiley.gif">9<br>practice with :nth</p>
+<p class="box" id="box10"> <img class="image" src="/img/smiley.gif">10<br>practice with :nth</p>
+<p class="box" id="box11"> <img class="image" src="/img/smiley.gif">11<br>practice with :nth</p>
+<p class="box" id="box12"> <img class="image" src="/img/smiley.gif">12<br>practice with :nth</p>
+
+<!--An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>-->
+
+<!--<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>-->
+</section>
+
+</body>
+</html>
