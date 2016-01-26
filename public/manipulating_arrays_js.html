@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ARRAYS JS</title>
+</head>
+<body>
+    <script>
+			// var daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday'];
+			// 	console.log(daysOfTheWeek);
+			// 	daysOfTheWeek.push('Friday', 'Saturday');
+			// //push adds to the end of the array
+			// 	console.log(daysOfTheWeek);
+			// 	daysOfTheWeek.unshift('Sunday');
+			// //unshift adds to the beginning of the array
+			// 	console.log(daysOfTheWeek);
+
+			// var todoList = ['Take out the trash', 'Clean the car', 'Pay the bills'];
+			// 	console.log('My todo list:');
+
+			// 	console.log(todoList);
+			// 	console.log('Completing the last item: ' + todoList[todoList.length - 1]);
+			// var doneItem = todoList.pop();
+			// 	console.log('Task complete: ' + doneItem);
+			// 	console.log(todoList);
+			// 	console.log('Task complete: ' + doneItem);
+			// 	console.log(todoList);
+			// var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'red'];
+			// var index = colors.indexOf('green');
+			// 	console.log(index);
+			// 	console.log(index);
+			// index = colors.lastIndexOf('red');
+			// 	console.log(index);
+			// var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+			// 	console.log(colors);
+			// 	console.log('Removing the first two colors.');
+			// var removed = colors.splice(0, 2);
+			// 	console.log(colors);
+			// 	console.log('Removing green.');
+			// 	removed = colors.splice(colors.indexOf('green'), 1);
+			// 	console.log(removed);
+			// 	console.log(colors);
+			// 	console.log(removed);
+			// var colors = ['red', 'orange', 'yellow', 'indigo', 'violet'];
+			// 	console.log(colors);
+			// 	console.log('Adding green and blue after yellow.');
+			// 	colors.splice(colors.indexOf('yellow') + 1, 0, 'green', 'blue');
+			// 	console.log(colors);
+			// var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+			// 	console.log(colors);
+			// 	console.log('Replacing indigo and violet with purple.');
+			// 	colors.splice(colors.indexOf('indigo'), 2, 'purple');
+			// 	console.log(colors);
+			// var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+			// 	console.log(colors);
+			// 	console.log('Sorting the colors array.');
+			// 	colors.sort();
+			// 	console.log(colors);
+
+
+				var planets = ['Mercury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune'];
+
+// function for logging the planets array
+				function logPlanets() {
+    				console.log('Here is the list of planets:');
+    				console.log(planets);
+				}
+				console.log('Adding "The Sun" to the beginning of the planets array.');
+				planets.unshift('Sun');
+// todo: Do what the log statement above says you will do.
+				logPlanets();
+				console.log('Adding "Pluto" to the end of the planets array.');
+				planets.push('Pluto');
+// todo: Do what the log statement above says you will do.
+				logPlanets();
+
+				console.log('Removing "The Sun" from the beginning of the planets array.');
+				planets.shift('Sun');
+// todo: Do what the log statement above says you will do.
+				logPlanets();
+
+				console.log('Removing "Pluto" from the end of the planets array.');
+				planets.pop('Pluto');
+// todo: Do what the log statement above says you will do.
+				logPlanets();
+
+				console.log('Finding and logging the index of "Earth" in the planets array.');
+				planets.indexOf('Earth');
+				var index = planets.indexOf('Earth');
+				console.log(index);
+// todo: Do what the log statement above says you will do.
+
+				console.log('Using splice to remove the planet after Earth.');
+				var removed = planets.splice(3, 1);
+				console.log(removed);
+// todo: Do what the log statement above says you will do.
+				logPlanets();
+
+				console.log('Using splice to add back the planet after Earth.');
+				planets.splice(planets.indexOf('Earth') + 1, 0, 'Mars');
+
+// todo: Do what the log statement above says you will do.
+				logPlanets();
+
+				console.log('Reversing the order of the planets array.');
+				planets.reverse();
+// todo: Do what the log statement above says you will do.
+				logPlanets();
+
+				console.log('Sorting the planets array.');
+				planets.sort();
+// todo: Do what the log statement above says you will do.
+				logPlanets();
+
+    </script>
+</body>
+</html>
