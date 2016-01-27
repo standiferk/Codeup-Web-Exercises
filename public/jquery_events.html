@@ -1,0 +1,81 @@
+<!-- Use percentages vice px as much as possible -->
+<!-- Use rem vice px...rem = relative number -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQUERY EVENTS PAGE</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=0">
+	<!-- <link rel="stylesheet" type="text/css" href="http://cssreset.com/normalize.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="/css/(/*css name here*/).css"> -->
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+	<!--<script src="js_demo.js">
+	</script>
+	<!-- google maps api key AIzaSyDrJtDlJgRpm1HBbRhYMy_2oTW_TFm35Rg -->
+	<style type="text/css">
+		h1 {
+			text-align: center;
+		}
+		img {
+			float: right;
+
+		}
+		</style>
+</head>
+<body>
+	<h1>JQuery Events Page</h1>
+	<h1 id="h1-header">This is my first crack at JQuery</h1>
+	<img src="/img/smiley.gif" style="width:200px;height:200px;">
+	<p class="nonsense">I'm not exactly sure how this is going to work but we'll keep going until either I get it right or something catastophic happens.  Let's hope for the first option; the second would probably mean this computer is in dire need of repair.</p>
+	<ul id="list">
+		<li class="first codeup">first try</li>
+		<li class="second codeup">second try</li>
+		<li class="third" id="codeup">third try</li>
+		<li class="last codeup">last try</li>
+	</ul>
+	<div id="mandatory-div">This an exercise requirement.</div>
+
+
+<!-- Load the Google Maps API [DON'T FORGET TO USE A KEY] -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrJtDlJgRpm1HBbRhYMy_2oTW_TFm35Rg"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+		// $("h1").click(function(){
+		// 	alert("I clicked the h1 tag");
+		// })
+		// $(".nonsense").hover(function() {
+		// 	alert("hovered!");
+		// })
+		// $(".mandatory-div").dblClick(function(){
+		// 	alert("double-clicked!!!");
+		// })
+		$("h1").click(function() {
+			$(this).css("background-color","blue");
+		});
+		$("p").dblclick(function() {
+			$(this).css("font-size","18px");
+		});
+		$(document).ready(function() {
+            $("li").hover(
+                function() {
+                    $(this).css("color", "red");
+                },
+                function() {
+                    $(this).css("color", "black");
+                }
+            );
+        });
+
+
+
+
+	</script>
+</body>
+</html>
